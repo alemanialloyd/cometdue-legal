@@ -1,0 +1,528 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-28",
+  "publisher": {
+    "name": "Sensei IT Solutions",
+    "proprietor": "Lloyd Alemania",
+    "legalName": "Lloyd Alemania, trading as Sensei IT Solutions",
+    "email": "breaksonfridays@gmail.com"
+  },
+  "documents": [
+    {
+      "id": "privacy",
+      "title": "Privacy Policy",
+      "description": "How CometDue handles local records, purchases, backups and support requests.",
+      "sections": [
+        {
+          "heading": "Who is responsible",
+          "paragraphs": [
+            "CometDue is published by Lloyd Alemania, trading as Sensei IT Solutions, a sole proprietorship based in the Philippines. In this policy, 'we', 'us' and 'our' refer to the publisher. This policy covers the CometDue app, our public legal and support pages, and support correspondence. For privacy questions or requests, email breaksonfridays@gmail.com.",
+            "CometDue is an offline-first bill tracker with no CometDue sign-up, account or financial-data server. Your bill and savings records are stored on your device. Purchases, device backups, files you choose to share and messages you send to support involve the separate services described below."
+          ],
+          "links": [
+            {
+              "label": "Contact privacy support",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20privacy%20request"
+            }
+          ]
+        },
+        {
+          "heading": "Records stored on your device",
+          "paragraphs": [
+            "The app stores the information you enter: bill names and descriptions, categories, amounts, currencies, due dates, recurrence and reminder settings, recorded payment amounts and dates, payment notes, savings goals, contributions and notes. It also stores your planets, appearance choices, game history, streaks, achievements and preferences.",
+            "These records let the app display bills, calculate balances and forecasts, schedule local reminders and provide the game experience. CometDue does not upload these financial or game records to us or RevenueCat during ordinary use. We receive them only if you deliberately send them to us, for example in a support email or attachment.",
+            "CometDue does not connect to your bank, read bank accounts or pay bills. Marking a bill as paid records your entry; it does not transfer money. Do not put passwords, bank sign-in details or full payment-card details in notes or support messages."
+          ]
+        },
+        {
+          "heading": "Purchases and RevenueCat",
+          "paragraphs": [
+            "Apple or Google processes payments for CometDue Pro Lifetime. We use RevenueCat to validate purchases, determine Pro access, restore purchases, recognize refunds or revocations, and view purchase reporting. RevenueCat's purchase-management service starts when the app opens and can contact its servers even before you make a purchase.",
+            "RevenueCat uses a randomly generated app user ID rather than a CometDue account. It processes purchase history and related records, such as product and transaction identifiers, purchase receipts or tokens, purchase status and dates, and technical context needed to operate its service, such as platform, app and operating-system versions, locale and currency. A random ID is still a purchase identifier; it does not mean no data is processed.",
+            "We do not provide bill or savings records to RevenueCat. The app does not send a name, email address or advertising identifier through RevenueCat customer attributes. We do not receive your full payment-card details or your Apple or Google account password. A separate local cache keeps the last verified Pro status and verification time so paid access can remain available when the store cannot be reached."
+          ],
+          "links": [
+            {
+              "label": "RevenueCat privacy information",
+              "url": "https://www.revenuecat.com/privacy"
+            },
+            {
+              "label": "RevenueCat data processing terms",
+              "url": "https://www.revenuecat.com/dpa"
+            },
+            {
+              "label": "Apple Privacy Policy",
+              "url": "https://www.apple.com/legal/privacy/en-ww/"
+            },
+            {
+              "label": "Google Privacy Policy",
+              "url": "https://policies.google.com/privacy"
+            }
+          ]
+        },
+        {
+          "heading": "Reminders and device permissions",
+          "paragraphs": [
+            "Reminders are scheduled on your device, rather than sent by a CometDue push-notification server. The app reads the device timezone to schedule them and uses operating-system background work to refresh upcoming reminders. You control reminder categories and timing in the app and notification permission in device settings.",
+            "Notifications can show a bill's name, amount and due or overdue status on the lock screen, in notification history or on connected devices, depending on your settings. Adjust notification previews if you want to hide that information. File access and sharing are used when you choose a backup to import or an export destination."
+          ]
+        },
+        {
+          "heading": "Backups, exports and migration",
+          "paragraphs": [
+            "Backup & Restore creates a readable JSON file containing financial records, game history and selected preferences. CometDue does not add a password or application-level encryption to this file. You choose whether to save or share it through Files, email, a cloud drive or another app. The destination handles its copy under its own rules. Pro ownership is not included in a manual backup.",
+            "CometDue permits normal operating-system backup and restore. Depending on your device and settings, app data may be included in Apple, Google, computer or device-to-device backups and transfers. These are controlled by you and the operating system or backup provider. They are not a CometDue cloud-sync service and are not guaranteed to contain the latest changes.",
+            "Deleting local data does not delete external exports or existing device backups. Restoring an older backup may bring back information deleted from the current installation. Protect backup files and remove unwanted copies from their destinations separately."
+          ]
+        },
+        {
+          "heading": "Support correspondence",
+          "paragraphs": [
+            "If you email us, we receive your email address, message, any name you provide, and any attachments or purchase references you include. We use them to answer your request, investigate issues, verify a purchase or privacy request when necessary, and maintain a record of the resolution. Our email provider processes messages to deliver and store correspondence.",
+            "Send only information needed for the request. Redact unrelated details from screenshots or receipts. Do not send your full bill backup unless necessary and you choose to share its contents. We do not use support correspondence to send advertising."
+          ]
+        },
+        {
+          "heading": "Our public website",
+          "paragraphs": [
+            "Our public legal and support pages are hosted on GitHub Pages. GitHub logs visitors' IP addresses for security purposes, including when visitors are not signed in. GitHub handles hosting data under its privacy statement.",
+            "We do not add advertising trackers, analytics scripts or nonessential cookies to these legal pages. External links and email links open services with their own privacy practices. Do not place private bill data or purchase receipts in a public GitHub issue or repository."
+          ],
+          "links": [
+            {
+              "label": "GitHub Pages data collection",
+              "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection"
+            },
+            {
+              "label": "GitHub Privacy Statement",
+              "url": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+            }
+          ]
+        },
+        {
+          "heading": "Sharing and advertising",
+          "paragraphs": [
+            "We do not sell personal information, display third-party ads or share data for cross-context behavioral advertising. CometDue has no separate behavioral analytics SDK or advertising identifier integration. RevenueCat purchase reporting is used for purchase administration and understanding sales, not to track bills or activity across other apps.",
+            "Service providers processing personal data on our behalf must protect it consistently with this policy and applicable law and use it to provide their services to us. Apple, Google, GitHub and destinations you choose for backups also process data for their own services under their policies. We may disclose information we hold when required by law, to respond to a lawful request or when reasonably necessary to protect legal rights, security or people. We limit disclosure to what is appropriate for that purpose."
+          ]
+        },
+        {
+          "heading": "Purposes and legal grounds",
+          "paragraphs": [
+            "Where a legal basis is required, we process information as necessary to provide the app and purchased features, respond to requests and fulfill our agreement with you; for legitimate interests in operating a secure app, administering purchases, understanding sales and resolving support issues; and to meet applicable legal obligations. Where applicable law requires consent, we rely on that consent and allow its withdrawal.",
+            "Revoke notification permission through device settings. Contact us about other consent-based processing or objections. Withdrawal does not affect processing lawful before withdrawal or processing with another lawful basis. Forecasts and game outcomes are calculated from your entries; we do not use them for lending, credit or other decisions with legal or similarly significant effects about you."
+          ]
+        },
+        {
+          "heading": "Retention and deletion",
+          "paragraphs": [
+            "Local records remain until removed or you use Settings > Delete local data. Ordinary bill deletion can preserve payment and historical records; it is not a complete reset. The full local deletion action clears financial and game records and preferences, cancels CometDue notifications, and removes backup exports and import copies managed inside the app. It returns the app to its initial setup.",
+            "A local reset does not remove store purchase ownership or the separate local Pro entitlement cache. It does not delete Apple, Google or RevenueCat purchase records, support correspondence, external exports or device backups. These require separate action.",
+            "We keep support correspondence and purchase-related records accessible to us only as long as needed for the relevant service, follow-up, purchase restoration, security, legal compliance or resolution of disputes. Providers may retain records independently required for their own legal obligations. On a deletion request, we assess the records we hold, remove those no longer needed and explain any applicable retention reason. There is no server copy of your local bills for us to retrieve or erase remotely."
+          ]
+        },
+        {
+          "heading": "Security and international processing",
+          "paragraphs": [
+            "Local records rely on the operating system's app-storage and device-security protections. CometDue does not add a separate database password or its own encryption layer to financial records or JSON exports. RevenueCat encrypts its service data in transit. No storage or transmission method guarantees complete security. Use a device passcode, keep your device updated and protect backup destinations.",
+            "We are based in the Philippines. Providers may process information in the United States and other countries where they operate, which may have different privacy laws. Where applicable law requires safeguards for international transfers, we use the required safeguards, including appropriate contractual protections. Contact us for information about safeguards relevant to your request."
+          ]
+        },
+        {
+          "heading": "Your privacy rights",
+          "paragraphs": [
+            "Depending on your location and applicable law, you may have rights to be informed, access information, correct it, receive a portable copy, request deletion, restrict or object to processing, withdraw consent and complain to a privacy regulator. These may include rights under the Philippine Data Privacy Act, the EU or UK GDPR and other regional laws. We do not discriminate against you for exercising applicable rights.",
+            "View and edit local records in the app, export them using Backup & Restore, and erase the installation's records using Delete local data. For support messages or purchase data we can access, email breaksonfridays@gmail.com. You can make a request without installing the app. Explain your request and provide the information needed to locate a record, such as the address used for support or a relevant store transaction reference. We may ask for proportionate verification, but never your password or full card details.",
+            "We respond within the period required by the law applicable to your request. If a legal exception applies, we explain it. You may complain to the Philippine National Privacy Commission or your local data-protection authority without first contacting us."
+          ],
+          "links": [
+            {
+              "label": "Send a privacy or deletion request",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20privacy%20request"
+            },
+            {
+              "label": "Philippine National Privacy Commission",
+              "url": "https://privacy.gov.ph/"
+            }
+          ]
+        },
+        {
+          "heading": "Children and young users",
+          "paragraphs": [
+            "CometDue is intended for people aged 13 and older and is not directed to children under 13. If you are below the age at which you can independently agree to terms or authorize relevant processing in your country, use the app only with the permission and involvement of a parent or legal guardian. Purchases also require authorization under your store account and local law.",
+            "We do not knowingly collect personal information from children under 13 through support or purchase management. If you believe a child has provided such information, contact us so we can investigate and take appropriate action, including deletion where required. A parent or guardian may contact us about their child's information."
+          ]
+        },
+        {
+          "heading": "Policy changes",
+          "paragraphs": [
+            "We may update this policy as the app, services or applicable requirements change. The updated date identifies this version. We provide additional notice and obtain consent before new processing where required by law. Email breaksonfridays@gmail.com if you need help understanding a change or locating an earlier policy."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terms",
+      "title": "Terms of Use",
+      "description": "Rules for using CometDue, Pro Lifetime purchases and your responsibilities.",
+      "sections": [
+        {
+          "heading": "About these terms",
+          "paragraphs": [
+            "These terms govern CometDue, published by Lloyd Alemania, trading as Sensei IT Solutions, a sole proprietorship based in the Philippines. By using the app, you agree to these terms to the extent permitted by applicable law. If you do not agree, stop using it. This does not remove any existing refund, withdrawal or consumer right.",
+            "Email breaksonfridays@gmail.com for app, purchase or legal questions. Our Privacy Policy explains information handling, and Purchases & Refunds explains store purchases and refund routes."
+          ],
+          "links": [
+            {
+              "label": "Contact the publisher",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20question"
+            }
+          ]
+        },
+        {
+          "heading": "Eligibility and permitted use",
+          "paragraphs": [
+            "CometDue is intended for users aged 13 and older. If you cannot enter an agreement or authorize relevant processing independently under local law, a parent or legal guardian must permit and oversee your use. You must have the authorization required for purchases with your store account.",
+            "Use the app for lawful personal bill tracking and related game features, subject to these terms, store terms and third-party licenses. Do not infringe another person's rights, distribute malicious code, interfere with purchase validation or obtain paid features fraudulently. Restrictions do not limit activities expressly permitted by applicable law or an open-source license."
+          ]
+        },
+        {
+          "heading": "A tracker, not a payment or financial service",
+          "paragraphs": [
+            "CometDue organizes information you enter. It does not connect to your bank, hold funds, send money, settle debts, contact creditors or pay bills on your behalf. Recording a payment or deflecting a comet does not prove that a creditor received money.",
+            "Forecasts, totals, streaks and game results depend on your entries, device clock and app calculations. They are informational, not financial, investment, credit, tax or legal advice. Verify amounts and due dates against your bills, maintain records you need outside the app and pay creditors on time."
+          ]
+        },
+        {
+          "heading": "Reminders and availability",
+          "paragraphs": [
+            "Reminders are a convenience. Device settings, permissions, power management, operating-system limits and other conditions can delay or prevent delivery. Keep another way to check important deadlines.",
+            "The core tracker works without a CometDue account or financial-data server. Purchases and restore checks need the store and RevenueCat. Compatibility and availability depend on your device, operating system and store region. Updates and feature changes remain subject to applicable law and your rights in paid features."
+          ]
+        },
+        {
+          "heading": "Your records and backups",
+          "paragraphs": [
+            "Your entries remain yours. We do not acquire ownership of your bills, notes or savings records. You are responsible for the information you enter and choose to share. Do not enter information you lack permission to use.",
+            "Records are stored on the device and may enter device backups under your settings. Manual exports are readable JSON, without an app-added password or encryption. Protect them. Importing replaces current local records after confirmation, and an old backup can restore previously deleted information. We cannot remotely recover records you have lost.",
+            "Settings > Delete local data clears financial and game records, preferences, reminders and app-managed backup copies. It does not remove external exports, existing device backups or store and RevenueCat purchase records. Ordinary bill deletion may preserve history."
+          ]
+        },
+        {
+          "heading": "CometDue Pro Lifetime",
+          "paragraphs": [
+            "Pro Lifetime is a one-time, non-consumable unlock of CometDue's Pro features, not an automatically renewing subscription. There are no ads, virtual currencies, consumable purchases or separately purchased skins. The app shows the store-provided localized price before you authorize payment. Your store handles payment, applicable taxes and the receipt.",
+            "Pro is enabled after the store and RevenueCat confirm the purchase. Cancelled, failed or pending purchases do not immediately unlock it. The app can retain the last verified entitlement while offline. A confirmed refund, reversal or revocation may remove Pro after verification.",
+            "Use Restore Purchases with the same account on the same app store after reinstalling or changing devices. An App Store purchase does not automatically create a Google Play entitlement, or vice versa. Restoring Pro restores access, not bills or savings. A local reset does not cancel purchase ownership.",
+            "Lifetime refers to the one-time Pro entitlement, with no recurring subscription fee. Use requires compatible devices and software; support for every future device or operating-system release is not promised. Nothing here permits removal of a paid entitlement contrary to consumer law."
+          ]
+        },
+        {
+          "heading": "Refunds and consumer rights",
+          "paragraphs": [
+            "Refund requests follow the relevant store process and applicable law. See Purchases & Refunds for official Apple and Google routes. Contact us for purchase-access problems or developer-handled requests. We do not impose a blanket no-refunds rule or promise approval on a store's behalf.",
+            "Nothing in these terms excludes or replaces consumer guarantees, statutory warranties, withdrawal rights, remedies for defective digital content, privacy rights or other rights that cannot legally be waived. Mandatory protections in your jurisdiction prevail over conflicting terms."
+          ]
+        },
+        {
+          "heading": "App ownership and third-party licenses",
+          "paragraphs": [
+            "The app's code, original designs, branding and original content belong to their respective rights holders. You receive permission to use the app, not ownership of those materials. Third-party libraries, fonts and icons have their own licenses, available through Open-source licenses in the app.",
+            "For App Store copies, Apple's Standard Licensed Application End User License Agreement governs the app license unless a custom EULA is expressly supplied through the store. These app-specific Terms of Use are not presented as a replacement custom Apple EULA. Relevant store terms continue to apply."
+          ],
+          "links": [
+            {
+              "label": "Apple Standard EULA",
+              "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+            }
+          ]
+        },
+        {
+          "heading": "Limitations and responsibility",
+          "paragraphs": [
+            "We aim to provide a useful, reliable app but cannot guarantee uninterrupted operation, reminder delivery, error-free calculations or recovery of records without a usable backup. To the extent permitted by law, it is provided as available without additional promises beyond those expressly made in these terms or at purchase.",
+            "To the extent permitted by law, we are not responsible for losses caused by incorrect entries, a failure to pay a creditor or an external service or device condition outside our reasonable control. These limitations do not exclude liability or remedies that the law does not allow us to exclude, including required consumer guarantees and liability for our conduct where the law preserves it."
+          ]
+        },
+        {
+          "heading": "Stopping use, changes and disputes",
+          "paragraphs": [
+            "Stop using CometDue at any time. To erase this installation's records, use Delete local data before uninstalling and manage external backups separately. Uninstalling does not itself request a refund.",
+            "We may revise terms as the app or applicable requirements change. The updated date identifies this version. Additional notice is given where required; changes do not retroactively remove accrued or mandatory rights.",
+            "Philippine law governs to the extent permitted by applicable law. Mandatory protections and rights to bring a claim in your home jurisdiction remain available where provided by law. Email breaksonfridays@gmail.com so we can try to resolve a concern; this does not restrict access to regulators, courts or other lawful remedies."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "refunds",
+      "title": "Purchases & Refunds",
+      "description": "How Pro Lifetime, restoring purchases and refund requests work.",
+      "sections": [
+        {
+          "heading": "What you purchase",
+          "paragraphs": [
+            "CometDue Pro Lifetime is a one-time, non-consumable in-app purchase, not a subscription. There is no recurring renewal charge or subscription to cancel. Review the localized store price before confirming. Apple or Google processes payment; RevenueCat manages verification and Pro access.",
+            "The free tracker remains available without a purchase. Store terms and applicable consumer law govern transactions. This policy neither promises a refund in every situation nor removes a mandatory right to a remedy."
+          ]
+        },
+        {
+          "heading": "Apple App Store purchases",
+          "paragraphs": [
+            "For a purchase billed by Apple, use Report a Problem while signed into the Apple Account used for the purchase. Choose the refund option and follow the instructions for that transaction. Apple's support article explains missing or pending charges.",
+            "Apple reviews requests under its policies and applicable law. We cannot approve a refund on Apple's behalf or promise its processing time. Contact us for app or purchase-identification help and Apple for its billing decision."
+          ],
+          "links": [
+            {
+              "label": "Request an Apple refund",
+              "url": "https://reportaproblem.apple.com/"
+            },
+            {
+              "label": "Apple refund instructions",
+              "url": "https://support.apple.com/en-us/118223"
+            }
+          ]
+        },
+        {
+          "heading": "Google Play purchases",
+          "paragraphs": [
+            "For a purchase billed by Google Play, use Google's refund guide and request process with the Google account used for the transaction. Eligibility and the available route depend on the purchase and regional rules.",
+            "You can also email breaksonfridays@gmail.com about a Google Play purchase, including when Google directs you to the developer. Include the relevant order reference and describe the problem. We review developer-handled requests using store tools and applicable law. Approval and payment-provider processing times are not guaranteed."
+          ],
+          "links": [
+            {
+              "label": "Google Play refund guide and request options",
+              "url": "https://support.google.com/googleplay/answer/2479637?hl=en"
+            },
+            {
+              "label": "Contact purchase support",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20purchase%20or%20refund"
+            }
+          ]
+        },
+        {
+          "heading": "Pro has not unlocked",
+          "paragraphs": [
+            "A pending purchase unlocks Pro only after store confirmation. If payment completed but Pro is missing, check your connection and store account, then use Restore Purchases in Settings or on the Pro screen. Do not repeatedly buy the product to try to fix access.",
+            "If access still does not return, email the platform, approximate purchase date, relevant transaction or order reference and error message. Redact unrelated information. Never send passwords, authentication codes or full card details."
+          ]
+        },
+        {
+          "heading": "Restoring and changing devices",
+          "paragraphs": [
+            "Restore Purchases checks ownership with the same store account. App Store purchases do not automatically transfer to Google Play, and Google Play purchases do not automatically transfer to the App Store. Store eligibility and availability still apply.",
+            "Restoring Pro restores access, not local bills, payments, savings or game history. Use Backup & Restore or an available device backup for those records. A local reset or uninstall does not itself refund or remove purchase ownership."
+          ]
+        },
+        {
+          "heading": "After a refund or reversal",
+          "paragraphs": [
+            "A confirmed refund, reversal or revocation may remove Pro when entitlement is next verified. Existing financial records are not erased. Free-tier creation limits may apply to new records while existing records remain available to manage.",
+            "A refund does not erase local records, exported files or transaction records the store must retain. Use Delete local data for the installation and the Data & Deletion instructions for other copies."
+          ]
+        },
+        {
+          "heading": "Your statutory rights",
+          "paragraphs": [
+            "This policy does not limit rights in your country, including remedies for faulty or misdescribed digital content and applicable withdrawal or refund rights. Store processes do not replace protections required by law. Contact the publisher if a purchase issue remains unresolved."
+          ],
+          "links": [
+            {
+              "label": "Email Sensei IT Solutions",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20purchase%20issue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "data-deletion",
+      "title": "Data & Deletion",
+      "description": "Erase local records, manage backup copies and request deletion of support or purchase data.",
+      "sections": [
+        {
+          "heading": "No CometDue account to close",
+          "paragraphs": [
+            "CometDue has no user registration or account. Bills, payment entries, savings and game records stay in the app on your device, with possible backup copies you control. Purchase-management records, store accounts and support emails are separate."
+          ]
+        },
+        {
+          "heading": "Delete this installation's records",
+          "paragraphs": [
+            "Open CometDue > Settings > Delete local data and confirm Delete data. Save a backup first only if you want to retain a copy. The reset cannot be undone from within the app and returns you to initial setup.",
+            "The action removes local bills, recorded payments, savings, planets, game history and preferences. It cancels CometDue notifications and removes backup exports and cached import copies managed inside the app. Ordinary bill deletion can preserve payment and historical records; use the full reset to remove the installation's financial history.",
+            "Removing app records does not guarantee forensic erasure from physical storage. Your operating system controls underlying storage and device-security features."
+          ]
+        },
+        {
+          "heading": "What the reset does not delete",
+          "paragraphs": [
+            "Pro purchase ownership and the separate local cache of verified Pro status are preserved. The reset does not cancel or refund the purchase. Eligible Pro access can still be restored with the same store account.",
+            "The reset cannot remove records held elsewhere. Manage these separately:"
+          ],
+          "bullets": [
+            "Files saved or shared outside CometDue, including copies in Files, email, cloud drives and other apps.",
+            "Existing computer, device and cloud backups or device-transfer copies.",
+            "Purchase and transaction records held by Apple, Google or RevenueCat.",
+            "Support emails and attachments sent to Sensei IT Solutions."
+          ]
+        },
+        {
+          "heading": "Exports and device backups",
+          "paragraphs": [
+            "Delete exported JSON files from every destination where you saved or shared them, including trash or recently deleted folders where applicable. If you sent a file to someone else, ask that recipient to remove their copy.",
+            "Use your operating system or backup provider to manage app backups. CometDue permits normal device backups but cannot remotely erase them. Availability, retention and deletion depend on the provider and your settings. Restoring an older manual or device backup can restore previously deleted information."
+          ]
+        },
+        {
+          "heading": "Request deletion without the app",
+          "paragraphs": [
+            "Email breaksonfridays@gmail.com with the subject 'CometDue data deletion'. You do not need to install the app or create an account. Explain whether the request concerns support correspondence, RevenueCat purchase-management data or both.",
+            "For correspondence, use your original email address or provide enough information to find the conversation. For purchase records, include the platform and relevant store order or transaction reference if available. We may request the minimum information needed to locate a record and verify your authority. Never send passwords, authentication codes or full card details.",
+            "We cannot erase the local database on a device we cannot access. If the app is unavailable, use operating-system app-storage or uninstall controls to remove the installation, and manage external backups separately. On iOS, offloading can preserve app data, so choose the device option that deletes both the app and its data."
+          ],
+          "links": [
+            {
+              "label": "Request data deletion by email",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20data%20deletion"
+            }
+          ]
+        },
+        {
+          "heading": "Purchase records and retained information",
+          "paragraphs": [
+            "For RevenueCat records we control, we assess requests and delete relevant customer data where required and technically available. Deleting a RevenueCat customer record does not refund a purchase or erase Apple or Google transaction history. A later purchase or restore check may create a purchase-management record again to validate access.",
+            "Apple and Google manage their own store-account and transaction data. Contact the store about information it controls. Records may need to remain for legal obligations, fraud prevention, purchase restoration or resolving disputes. We explain applicable retention reasons when responding.",
+            "We respond within the period required by applicable law. If a request cannot be fulfilled in whole or part, we explain why and available next steps. The Privacy Policy describes your rights and regulator contacts."
+          ],
+          "links": [
+            {
+              "label": "Apple privacy controls",
+              "url": "https://privacy.apple.com/"
+            },
+            {
+              "label": "Google data and privacy controls",
+              "url": "https://myaccount.google.com/data-and-privacy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "support",
+      "title": "Support & Contact",
+      "description": "Get help with CometDue, purchases, records or privacy.",
+      "sections": [
+        {
+          "heading": "Contact the publisher",
+          "paragraphs": [
+            "CometDue is published by Lloyd Alemania, trading as Sensei IT Solutions, a sole proprietorship based in the Philippines. Email breaksonfridays@gmail.com for app support, purchase problems, accessibility questions, privacy requests or other concerns. Support is provided by email. We do not operate a bill-payment or debt-settlement service."
+          ],
+          "links": [
+            {
+              "label": "Email CometDue support",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20support"
+            }
+          ]
+        },
+        {
+          "heading": "What to include",
+          "paragraphs": [
+            "Describe what you tried, what happened and what you expected. Include your device model, Android or iOS version, CometDue version if known and any error message. Redact private information from screenshots.",
+            "For purchase access, include the store, approximate purchase date and relevant order or transaction reference if available. Never send passwords, verification codes, bank logins or full card details. Do not post sensitive information in public GitHub issues."
+          ]
+        },
+        {
+          "heading": "Purchase access and refunds",
+          "paragraphs": [
+            "If Pro is missing after a completed purchase, connect to the internet and use Restore Purchases in Settings or on the Pro screen with the same store account. Pending purchases need store confirmation. Purchases do not automatically transfer between the App Store and Google Play.",
+            "Use the official Apple or Google route for billing refunds, or email us for access help and developer-handled Google Play requests. Purchases & Refunds provides the details."
+          ],
+          "links": [
+            {
+              "label": "Apple refund instructions",
+              "url": "https://support.apple.com/en-us/118223"
+            },
+            {
+              "label": "Google Play refund instructions",
+              "url": "https://support.google.com/googleplay/answer/2479637?hl=en"
+            }
+          ]
+        },
+        {
+          "heading": "Records and backups",
+          "paragraphs": [
+            "We do not have a server copy of your bills, savings or game history. Restore Purchases restores premium access only. Recover records using an available CometDue backup or device backup. Recovery cannot be guaranteed without a usable backup.",
+            "Manual backups are readable JSON containing financial information. If an investigation needs a file, consider whether a redacted screenshot or sample will suffice. Share a complete backup only when necessary and you choose to disclose it. Importing replaces current local records after confirmation."
+          ]
+        },
+        {
+          "heading": "Reminders",
+          "paragraphs": [
+            "Check notification permission, the app's reminder settings, device timezone, and battery or background restrictions. Open CometDue periodically to refresh upcoming reminders. Operating-system limits can still delay or prevent delivery.",
+            "Notifications can show bill names and amounts. Adjust lock-screen previews if you want to hide them, and keep another way to check important deadlines."
+          ]
+        },
+        {
+          "heading": "Privacy and deletion",
+          "paragraphs": [
+            "Use Settings > Delete local data for this installation's records. For correspondence or purchase-management data held outside the device, email us with your request. No app installation is needed. Data & Deletion explains what the reset removes, what remains and how to manage other copies."
+          ],
+          "links": [
+            {
+              "label": "Send a privacy or deletion request",
+              "url": "mailto:breaksonfridays@gmail.com?subject=CometDue%20privacy%20or%20deletion%20request"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "licenses",
+      "title": "Open-source Licenses",
+      "description": "Third-party software, font and icon notices used by CometDue.",
+      "sections": [
+        {
+          "heading": "Software notices in the app",
+          "paragraphs": [
+            "CometDue uses Flutter and third-party packages. Open the app's Open-source licenses screen to read notices bundled with your installed version, including dependency-specific copyright and license terms. The installed app's notices are the reference for its components; this page is not a complete dependency inventory.",
+            "Third-party licenses apply to their respective components. These notices do not imply author endorsement of CometDue, and our Terms of Use do not override rights those licenses grant. The bundled Outfit and Phosphor notices are reproduced below."
+          ]
+        },
+        {
+          "heading": "Outfit font — SIL Open Font License 1.1",
+          "paragraphs": [
+            "Copyright 2021 The Outfit Project Authors (https://github.com/Outfitio/Outfit-Fonts)",
+            "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL",
+            "----------------------------------------------------------- SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007 -----------------------------------------------------------",
+            "PREAMBLE The goals of the Open Font License (OFL) are to stimulate worldwide development of collaborative font projects, to support the font creation efforts of academic and linguistic communities, and to provide a free and open framework in which fonts may be shared and improved in partnership with others.",
+            "The OFL allows the licensed fonts to be used, studied, modified and redistributed freely as long as they are not sold by themselves. The fonts, including any derivative works, can be bundled, embedded, redistributed and/or sold with any software provided that any reserved names are not used by derivative works. The fonts and derivatives, however, cannot be released under any other type of license. The requirement for fonts to remain under this license does not apply to any document created using the fonts or their derivatives.",
+            "DEFINITIONS \"Font Software\" refers to the set of files released by the Copyright Holder(s) under this license and clearly marked as such. This may include source files, build scripts and documentation.",
+            "\"Reserved Font Name\" refers to any names specified as such after the copyright statement(s).",
+            "\"Original Version\" refers to the collection of Font Software components as distributed by the Copyright Holder(s).",
+            "\"Modified Version\" refers to any derivative made by adding to, deleting, or substituting -- in part or in whole -- any of the components of the Original Version, by changing formats or by porting the Font Software to a new environment.",
+            "\"Author\" refers to any designer, engineer, programmer, technical writer or other person who contributed to the Font Software.",
+            "PERMISSION & CONDITIONS Permission is hereby granted, free of charge, to any person obtaining a copy of the Font Software, to use, study, copy, merge, embed, modify, redistribute, and sell modified and unmodified copies of the Font Software, subject to the following conditions:",
+            "1) Neither the Font Software nor any of its individual components, in Original or Modified Versions, may be sold by itself.",
+            "2) Original or Modified Versions of the Font Software may be bundled, redistributed and/or sold with any software, provided that each copy contains the above copyright notice and this license. These can be included either as stand-alone text files, human-readable headers or in the appropriate machine-readable metadata fields within text or binary files as long as those fields can be easily viewed by the user.",
+            "3) No Modified Version of the Font Software may use the Reserved Font Name(s) unless explicit written permission is granted by the corresponding Copyright Holder. This restriction only applies to the primary font name as presented to the users.",
+            "4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font Software shall not be used to promote, endorse or advertise any Modified Version, except to acknowledge the contribution(s) of the Copyright Holder(s) and the Author(s) or with their explicit written permission.",
+            "5) The Font Software, modified or unmodified, in part or in whole, must be distributed entirely under this license, and must not be distributed under any other license. The requirement for fonts to remain under this license does not apply to any document created using the Font Software.",
+            "TERMINATION This license becomes null and void if any of the above conditions are not met.",
+            "DISCLAIMER THE FONT SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN THE FONT SOFTWARE."
+          ]
+        },
+        {
+          "heading": "Phosphor Icons — MIT License",
+          "paragraphs": [
+            "MIT License",
+            "Copyright (c) 2020-2021 Phosphor Icons",
+            "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:",
+            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.",
+            "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+          ]
+        }
+      ]
+    }
+  ]
+}
